@@ -39,13 +39,13 @@ include CMakeFiles/rules.ninja
 #############################################
 # Logical path to working directory; prefix for absolute paths.
 
-cmake_ninja_workdir = /cygdrive/c/Users/35191/Desktop/TrepaColinas/cmake-build-debug/
+cmake_ninja_workdir = /cygdrive/c/Optimization_Problems/Trepa$ Colinas/cmake-build-debug/
 
 #############################################
 # Utility command for rebuild_cache
 
 build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /cygdrive/c/Users/35191/Desktop/TrepaColinas/cmake-build-debug && /cygdrive/c/Users/35191/AppData/Local/JetBrains/CLion2021.3/cygwin_cmake/bin/cmake.exe --regenerate-during-build -S/cygdrive/c/Users/35191/Desktop/TrepaColinas -B/cygdrive/c/Users/35191/Desktop/TrepaColinas/cmake-build-debug
+  COMMAND = cd "/cygdrive/c/Optimization_Problems/Trepa Colinas/cmake-build-debug" && /cygdrive/c/Users/35191/AppData/Local/JetBrains/CLion2021.3/cygwin_cmake/bin/cmake.exe --regenerate-during-build -S"/cygdrive/c/Optimization_Problems/Trepa Colinas" -B"/cygdrive/c/Optimization_Problems/Trepa Colinas/cmake-build-debug"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -57,7 +57,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # Utility command for edit_cache
 
 build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /cygdrive/c/Users/35191/Desktop/TrepaColinas/cmake-build-debug && /cygdrive/c/Users/35191/AppData/Local/JetBrains/CLion2021.3/cygwin_cmake/bin/cmake.exe -E echo No\ interactive\ CMake\ dialog\ available.
+  COMMAND = cd "/cygdrive/c/Optimization_Problems/Trepa Colinas/cmake-build-debug" && /cygdrive/c/Users/35191/AppData/Local/JetBrains/CLion2021.3/cygwin_cmake/bin/cmake.exe -E echo No\ interactive\ CMake\ dialog\ available.
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -72,7 +72,7 @@ build edit_cache: phony CMakeFiles/edit_cache.util
 
 build cmake_object_order_depends_target_TrepaColinas: phony || CMakeFiles/TrepaColinas.dir
 
-build CMakeFiles/TrepaColinas.dir/main.c.o: C_COMPILER__TrepaColinas_Debug /cygdrive/c/Users/35191/Desktop/TrepaColinas/main.c || cmake_object_order_depends_target_TrepaColinas
+build CMakeFiles/TrepaColinas.dir/main.c.o: C_COMPILER__TrepaColinas_Debug /cygdrive/c/Optimization_Problems/Trepa$ Colinas/main.c || cmake_object_order_depends_target_TrepaColinas
   DEP_FILE = CMakeFiles/TrepaColinas.dir/main.c.o.d
   FLAGS = -g -std=gnu99
   OBJECT_DIR = CMakeFiles/TrepaColinas.dir
@@ -80,7 +80,7 @@ build CMakeFiles/TrepaColinas.dir/main.c.o: C_COMPILER__TrepaColinas_Debug /cygd
   TARGET_COMPILE_PDB = CMakeFiles/TrepaColinas.dir/
   TARGET_PDB = TrepaColinas.pdb
 
-build CMakeFiles/TrepaColinas.dir/funcao.c.o: C_COMPILER__TrepaColinas_Debug /cygdrive/c/Users/35191/Desktop/TrepaColinas/funcao.c || cmake_object_order_depends_target_TrepaColinas
+build CMakeFiles/TrepaColinas.dir/funcao.c.o: C_COMPILER__TrepaColinas_Debug /cygdrive/c/Optimization_Problems/Trepa$ Colinas/funcao.c || cmake_object_order_depends_target_TrepaColinas
   DEP_FILE = CMakeFiles/TrepaColinas.dir/funcao.c.o.d
   FLAGS = -g -std=gnu99
   OBJECT_DIR = CMakeFiles/TrepaColinas.dir
@@ -88,7 +88,7 @@ build CMakeFiles/TrepaColinas.dir/funcao.c.o: C_COMPILER__TrepaColinas_Debug /cy
   TARGET_COMPILE_PDB = CMakeFiles/TrepaColinas.dir/
   TARGET_PDB = TrepaColinas.pdb
 
-build CMakeFiles/TrepaColinas.dir/utils.c.o: C_COMPILER__TrepaColinas_Debug /cygdrive/c/Users/35191/Desktop/TrepaColinas/utils.c || cmake_object_order_depends_target_TrepaColinas
+build CMakeFiles/TrepaColinas.dir/utils.c.o: C_COMPILER__TrepaColinas_Debug /cygdrive/c/Optimization_Problems/Trepa$ Colinas/utils.c || cmake_object_order_depends_target_TrepaColinas
   DEP_FILE = CMakeFiles/TrepaColinas.dir/utils.c.o.d
   FLAGS = -g -std=gnu99
   OBJECT_DIR = CMakeFiles/TrepaColinas.dir
@@ -96,7 +96,7 @@ build CMakeFiles/TrepaColinas.dir/utils.c.o: C_COMPILER__TrepaColinas_Debug /cyg
   TARGET_COMPILE_PDB = CMakeFiles/TrepaColinas.dir/
   TARGET_PDB = TrepaColinas.pdb
 
-build CMakeFiles/TrepaColinas.dir/algoritmo.c.o: C_COMPILER__TrepaColinas_Debug /cygdrive/c/Users/35191/Desktop/TrepaColinas/algoritmo.c || cmake_object_order_depends_target_TrepaColinas
+build CMakeFiles/TrepaColinas.dir/algoritmo.c.o: C_COMPILER__TrepaColinas_Debug /cygdrive/c/Optimization_Problems/Trepa$ Colinas/algoritmo.c || cmake_object_order_depends_target_TrepaColinas
   DEP_FILE = CMakeFiles/TrepaColinas.dir/algoritmo.c.o.d
   FLAGS = -g -std=gnu99
   OBJECT_DIR = CMakeFiles/TrepaColinas.dir
@@ -134,7 +134,7 @@ build TrepaColinas: phony TrepaColinas.exe
 # =============================================================================
 
 #############################################
-# Folder: /cygdrive/c/Users/35191/Desktop/TrepaColinas/cmake-build-debug
+# Folder: /cygdrive/c/Optimization_Problems/Trepa Colinas/cmake-build-debug
 
 build all: phony TrepaColinas.exe
 

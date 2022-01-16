@@ -1,1 +1,0 @@
-/usr/bin/cc -g -Wl,--enable-auto-import CMakeFiles/TrepaColinas.dir/main.c.o CMakeFiles/TrepaColinas.dir/funcao.c.o CMakeFiles/TrepaColinas.dir/utils.c.o CMakeFiles/TrepaColinas.dir/algoritmo.c.o -o TrepaColinas.exe -Wl,--out-implib,libTrepaColinas.dll.a -Wl,--major-image-version,0,--minor-image-version,0 

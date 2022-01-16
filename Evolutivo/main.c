@@ -20,10 +20,10 @@ int main(int argc, char *argv[])
     float       mbf = 0.0;
 
 
-    EA_param.popsize = 100; //tamanho da população
+    EA_param.popsize = 200; //tamanho da população
     EA_param.pr = 0.7;     //probabilidade de recombinação
     EA_param.pm = 0.001;    //probabilidade de mutação
-    EA_param.tsize = 50;    //tamanho do torneio
+    EA_param.tsize = 80;    //tamanho do torneio
     EA_param.numGenerations = 2500;  //numero de geracoes
 
 
@@ -48,13 +48,13 @@ int main(int argc, char *argv[])
 
 
 
-    // Faz um ciclo com o n�mero de execu��es definidas
+
     for (r=0; r<runs; r++)
     {
         printf("Repeticao %d\n",r);
-        // Gera��o da popula��o inicial
+
         pop = init_pop(EA_param);
-        // Avalia a popula��o inicial
+
         evaluate(pop, EA_param, *mat);
 
         best_run = pop[0];

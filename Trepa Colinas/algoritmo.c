@@ -57,7 +57,8 @@ int trepa_colinas_probabilistico(int sol[], int *mat, int vert, int num_iter)
     custo = calcula_fit(sol, mat, vert);
     for(i = 0; i < num_iter; i++)
     {
-        gera_vizinho(sol, nova_sol, vert);
+        //gera_vizinho(sol, nova_sol, vert);
+        gera_vizinho2(sol, nova_sol, vert);
         custo_viz = calcula_fit(nova_sol, mat, vert);
         if (custo_viz >= custo)
         {

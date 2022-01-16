@@ -5,7 +5,7 @@
 #include "algoritmo.h"
 #include "funcao.h"
 #include "utils.h"
-
+#define PROB 0.01
 #define GENERATIONS_TC  100
 #define PROBGERAVIZ     1.0
 
@@ -162,6 +162,13 @@ void trepa_colinas(pchrom pop, struct info d, int *mat)
             vizinho.fitness = eval_individual(vizinho.p, d, mat, &vizinho.valido);
             if (vizinho.fitness >= pop[i].fitness)
                 pop[i] = vizinho;
+            else
+            {
+                if(rand_01() < PROB)
+                {
+                    pop[i] = vizinho;
+                }
+            }
         }
     }
 }

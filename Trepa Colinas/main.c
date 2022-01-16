@@ -5,12 +5,12 @@
 #include "utils.h"
 #include "funcao.h"
 
-#define DEFAULT_RUNS 10
+#define DEFAULT_RUNS 30
 
 int main(int argc, char *argv[])
 {
     char    nome_fich[100];
-    int     vert,  num_iter = 10000, k, runs, custo, best_custo;
+    int     vert,  num_iter = 5000, k, runs, custo, best_custo;
     int     *grafo, *sol, *best;
     float   mbf = 0.0;
 

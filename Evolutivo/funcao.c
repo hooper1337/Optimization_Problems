@@ -9,9 +9,6 @@
 #define GENERATIONS_TC  100
 #define PROBGERAVIZ     1.0
 
-// Calcula a qualidade de uma soluï¿½ï¿½o
-// Parï¿½metros de entrada: soluï¿½ï¿½o (sol), capacidade da mochila (d), matriz com dados do problema (mat) e numero de objectos (v)
-// Parï¿½metros de saï¿½da: qualidade da soluï¿½ï¿½o (se a capacidade for excedida devolve 0)
 float eval_individual(int sol[], struct info d, int *mat, int *v){
     int total = 0;
     int i, j;
@@ -107,9 +104,6 @@ float eval_individual_reparado1(int sol[], struct info d, int * mat, int *v){int
     }
 }
 
-// Calcula a qualidade de uma soluï¿½ï¿½o com reparaï¿½ï¿½o de acordo com uma heirï¿½stica sofrega
-// Parï¿½metros de entrada: soluï¿½ï¿½o (sol), capacidade da mochila (d), matriz com dados do problema (mat) e numero de objectos (v)
-// Parï¿½metros de saï¿½da: qualidade da soluï¿½ï¿½o (se a capacidade for excedida devolve 0)
 float eval_individual_reparado2(int sol[], struct info d, int mat[][2], int *v){
 
 }

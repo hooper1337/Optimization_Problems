@@ -1,3 +1,0 @@
-/cygdrive/c/Users/35191/Documents/Projectos/Optimization_Problems/Trepa Colinas/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/cygdrive/c/Users/35191/Documents/Projectos/Optimization_Problems/Trepa Colinas/cmake-build-debug/CMakeFiles/edit_cache.dir
-/cygdrive/c/Users/35191/Documents/Projectos/Optimization_Problems/Trepa Colinas/cmake-build-debug/CMakeFiles/teste.dir

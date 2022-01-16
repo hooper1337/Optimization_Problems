@@ -1,3 +1,0 @@
-/cygdrive/c/Optimization_Problems/Hibrido/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/cygdrive/c/Optimization_Problems/Hibrido/cmake-build-debug/CMakeFiles/edit_cache.dir
-/cygdrive/c/Optimization_Problems/Hibrido/cmake-build-debug/CMakeFiles/Evolutivo.dir

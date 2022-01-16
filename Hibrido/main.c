@@ -20,7 +20,7 @@ int main(int argc, char *argv[])
     float       mbf = 0.0;
 
 
-    EA_param.popsize = 100; //tamanho da população
+    EA_param.popsize = 200; //tamanho da população
     EA_param.pr = 0.7;     //probabilidade de recombinação
     EA_param.pm = 0.001;    //probabilidade de mutação
     EA_param.tsize = 50;    //tamanho do torneio
@@ -31,7 +31,7 @@ int main(int argc, char *argv[])
 
     printf("Nome do Ficheiro: ");
     gets(nome_fich);
-    printf("Numero de iterações:");
+    printf("Numero de runs:");
     scanf("%d", &runs);
 
     if (runs <= 0)

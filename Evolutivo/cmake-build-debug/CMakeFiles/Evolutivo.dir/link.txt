@@ -1,0 +1,1 @@
+/usr/bin/cc -g -Wl,--enable-auto-import CMakeFiles/Evolutivo.dir/main.c.o CMakeFiles/Evolutivo.dir/algoritmo.c.o CMakeFiles/Evolutivo.dir/utils.c.o CMakeFiles/Evolutivo.dir/funcao.c.o -o Evolutivo.exe -Wl,--out-implib,libEvolutivo.dll.a -Wl,--major-image-version,0,--minor-image-version,0 

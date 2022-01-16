@@ -1,0 +1,1 @@
+/usr/bin/cc -g -Wl,--enable-auto-import CMakeFiles/teste.dir/main.c.o CMakeFiles/teste.dir/sources/algoritmo.c.o CMakeFiles/teste.dir/sources/utils.c.o CMakeFiles/teste.dir/sources/funcao.c.o -o teste.exe -Wl,--out-implib,libteste.dll.a -Wl,--major-image-version,0,--minor-image-version,0 

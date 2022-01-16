@@ -1,3 +1,0 @@
-/cygdrive/c/Optimization_Problems/Trepa Colinas/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/cygdrive/c/Optimization_Problems/Trepa Colinas/cmake-build-debug/CMakeFiles/edit_cache.dir
-/cygdrive/c/Optimization_Problems/Trepa Colinas/cmake-build-debug/CMakeFiles/TrepaColinas.dir

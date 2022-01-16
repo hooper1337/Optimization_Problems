@@ -64,9 +64,9 @@ int main(int argc, char *argv[])
         pop = init_pop(EA_param);
         // Avalia a popula��o inicial
         evaluate(pop, EA_param, *mat);
-        // Aplica��o do algoritmo trepa colinas para refinar a popula��o inicial
-        // Exerc�cio 4.6(i)
-        // trepa_colinas(pop, EA_param, mat);
+
+         //chamamos o nosso trepa colinas para refinar a população final
+        trepa_colinas(pop, EA_param, mat);
 
         // Como ainda n�o existe, escolhe-se como melhor solu��o a primeira da popula��o (poderia ser outra qualquer)
         best_run = pop[0];
@@ -108,7 +108,7 @@ int main(int argc, char *argv[])
             best_run = get_best(pop, EA_param, best_run);
             gen_actual++;
         }
-
+        
         //trepa_colinas(pop, EA_param, *mat);
 
         // Contagem das solu��es inv�lidas

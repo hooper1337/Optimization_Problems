@@ -100,7 +100,8 @@ void mostrarMatriz(int *matriz, int vertices) {
 void gerarSolucaoInicial(int *solucao, int vertices) {
     int rnd;
 
-    for (int i = 0; i < vertices; i++) {
+    for (int i = 0; i < vertices; i++)
+    {
         solucao[i] = 0;
     }
 

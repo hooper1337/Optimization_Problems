@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="TrepaColinas"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/Users/migue/CLionProjects/TP2IIA2021/TrepaColinas/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/migue/CLionProjects/TP2IIA2021/TrepaColinas/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/migue/CLionProjects/TP2IIA2021/TrepaColinas/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/migue/CLionProjects/TP2IIA2021/TrepaColinas/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/migue/CLionProjects/TP2IIA2021/TrepaColinas/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="TrepaColinas">
+				<Option output="C:/Users/migue/CLionProjects/TP2IIA2021/TrepaColinas/cmake-build-debug/TrepaColinas.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/migue/CLionProjects/TP2IIA2021/TrepaColinas/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/migue/CLionProjects/TP2IIA2021/TrepaColinas/cmake-build-debug/Makefile&quot;  VERBOSE=1 TrepaColinas"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/migue/CLionProjects/TP2IIA2021/TrepaColinas/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/migue/CLionProjects/TP2IIA2021/TrepaColinas/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/migue/CLionProjects/TP2IIA2021/TrepaColinas/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="TrepaColinas/fast">
+				<Option output="C:/Users/migue/CLionProjects/TP2IIA2021/TrepaColinas/cmake-build-debug/TrepaColinas.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/migue/CLionProjects/TP2IIA2021/TrepaColinas/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/migue/CLionProjects/TP2IIA2021/TrepaColinas/cmake-build-debug/Makefile&quot;  VERBOSE=1 TrepaColinas/fast"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/migue/CLionProjects/TP2IIA2021/TrepaColinas/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/migue/CLionProjects/TP2IIA2021/TrepaColinas/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/migue/CLionProjects/TP2IIA2021/TrepaColinas/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="C:/Users/migue/CLionProjects/TP2IIA2021/TrepaColinas/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/migue/CLionProjects/TP2IIA2021/TrepaColinas/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/migue/CLionProjects/TP2IIA2021/TrepaColinas/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/migue/CLionProjects/TP2IIA2021/TrepaColinas/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/migue/CLionProjects/TP2IIA2021/TrepaColinas/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="C:/Users/migue/CLionProjects/TP2IIA2021/TrepaColinas/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/migue/CLionProjects/TP2IIA2021/TrepaColinas/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/migue/CLionProjects/TP2IIA2021/TrepaColinas/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/migue/CLionProjects/TP2IIA2021/TrepaColinas/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/migue/CLionProjects/TP2IIA2021/TrepaColinas/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/Users/migue/CLionProjects/TP2IIA2021/TrepaColinas/algoritmo.c">
+			<Option target="TrepaColinas"/>
+		</Unit>
+		<Unit filename="C:/Users/migue/CLionProjects/TP2IIA2021/TrepaColinas/algoritmo.h">
+			<Option target="TrepaColinas"/>
+		</Unit>
+		<Unit filename="C:/Users/migue/CLionProjects/TP2IIA2021/TrepaColinas/funcao.c">
+			<Option target="TrepaColinas"/>
+		</Unit>
+		<Unit filename="C:/Users/migue/CLionProjects/TP2IIA2021/TrepaColinas/funcao.h">
+			<Option target="TrepaColinas"/>
+		</Unit>
+		<Unit filename="C:/Users/migue/CLionProjects/TP2IIA2021/TrepaColinas/main.c">
+			<Option target="TrepaColinas"/>
+		</Unit>
+		<Unit filename="C:/Users/migue/CLionProjects/TP2IIA2021/TrepaColinas/utils.c">
+			<Option target="TrepaColinas"/>
+		</Unit>
+		<Unit filename="C:/Users/migue/CLionProjects/TP2IIA2021/TrepaColinas/utils.h">
+			<Option target="TrepaColinas"/>
+		</Unit>
+		<Unit filename="C:/Users/migue/CLionProjects/TP2IIA2021/TrepaColinas/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

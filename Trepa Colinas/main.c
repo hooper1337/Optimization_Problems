@@ -14,29 +14,14 @@ int main(int argc, char *argv[])
     int     *grafo, *sol, *best;
     float   mbf = 0.0;
 
-    if (argc == 4)
-    {
-        num_iter = atoi(argv[3]);
-        runs = atoi(argv[2]);
-        strcpy(nome_fich, argv[1]);
-    }
-    else if (argc == 3)
-    {
-        runs = atoi(argv[2]);
-        strcpy(nome_fich, argv[1]);
-    }
-    else
-    if (argc == 2)
-    {
-        runs = DEFAULT_RUNS;
-        strcpy(nome_fich, argv[1]);
-    }
-    else
-    {
-        runs = DEFAULT_RUNS;
+
+
         printf("Nome do Ficheiro: ");
         gets(nome_fich);
-    }
+
+        printf("Número de runs: ");
+        scanf("%d", &runs);
+
     if (runs <= 0)
         return 0;
     init_rand();

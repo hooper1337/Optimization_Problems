@@ -9,17 +9,12 @@
 // EStrutura para armazenar parametros
 struct info
 {
-    // Tamanho da popula��o
+
     int     popsize;
-    // Probabilidade de muta��o
     float   pm;
-    // Probabilidade de recombina��o
     float   pr;
-    // Tamanho do torneio para sele��o do pai da pr�xima gera��o
     int     tsize;
-    // N�mero de objetos que se podem colocar na mochila
     int     numGenes;
-    // N�mero de gera��es
     int     numGenerations;
 };
 

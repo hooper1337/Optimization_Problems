@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
-    <generated />
+    <generated>
+      <config projectName="TrepaColinas" targetName="TrepaColinas" />
+    </generated>
   </component>
   <component name="CMakeSettings">
     <configurations>
@@ -10,16 +12,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="954238f2-b4a0-45d7-96bb-ff45c659007f" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/Optimization_Problems.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/discord.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/discord.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Evolutivo/cmake-build-debug/CMakeFiles/Evolutivo.dir/main.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/Evolutivo/cmake-build-debug/CMakeFiles/Evolutivo.dir/main.c.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Evolutivo/cmake-build-debug/Evolutivo.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Evolutivo/cmake-build-debug/Evolutivo.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Evolutivo/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/Evolutivo/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Evolutivo/cmake-build-debug/output.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Evolutivo/cmake-build-debug/output.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Evolutivo/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/Evolutivo/main.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Trepa Colinas.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Trepa Colinas/cmake-build-debug/CMakeFiles/teste.dir/compiler_depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/Trepa Colinas/cmake-build-debug/CMakeFiles/teste.dir/compiler_depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Trepa Colinas/cmake-build-debug/CMakeFiles/3.21.1/CMakeSystem.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/Trepa Colinas/cmake-build-debug/CMakeFiles/3.21.1/CMakeSystem.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Trepa Colinas/cmake-build-debug/CMakeFiles/3.21.1/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" afterPath="$PROJECT_DIR$/Trepa Colinas/cmake-build-debug/CMakeFiles/3.21.1/CompilerIdC/CMakeCCompilerId.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Trepa Colinas/cmake-build-debug/CMakeFiles/3.21.1/CompilerIdC/a.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Trepa Colinas/cmake-build-debug/CMakeFiles/3.21.1/CompilerIdC/a.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Trepa Colinas/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/Trepa Colinas/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Trepa Colinas/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Trepa Colinas/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Trepa Colinas/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/Trepa Colinas/cmake-build-debug/Makefile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Trepa Colinas/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/Trepa Colinas/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Trepa Colinas/sources/utils.c" beforeDir="false" afterPath="$PROJECT_DIR$/Trepa Colinas/sources/utils.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Trepa Colinas/cmake-build-debug/TrepaColinas.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/Trepa Colinas/cmake-build-debug/TrepaColinas.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Trepa Colinas/cmake-build-debug/TrepaColinas.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Trepa Colinas/cmake-build-debug/TrepaColinas.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Trepa Colinas/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/Trepa Colinas/cmake-build-debug/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Trepa Colinas/cmake-build-debug/output.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Trepa Colinas/cmake-build-debug/output.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Trepa Colinas/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/Trepa Colinas/main.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Trepa Colinas/utils.c" beforeDir="false" afterPath="$PROJECT_DIR$/Trepa Colinas/utils.c" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,6 +37,7 @@
   <component name="ClangdSettings">
     <option name="formatViaClangd" value="false" />
   </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -50,12 +59,26 @@
     <property name="cmake.loaded.for.project" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/Hibrido" />
   </component>
-  <component name="RunManager">
-    <configuration name="Optimization_Problems" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="teste" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="teste">
+  <component name="RunManager" selected="CMake Application.TrepaColinas">
+    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Optimization_Problems" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="TrepaColinas" TARGET_NAME="teste" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="TrepaColinas" RUN_TARGET_NAME="teste">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TrepaColinas" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="TrepaColinas" TARGET_NAME="TrepaColinas" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="TrepaColinas" RUN_TARGET_NAME="TrepaColinas">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="CMake Application.Optimization_Problems" />
+      <item itemvalue="CMake Application.TrepaColinas" />
+    </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -69,6 +92,7 @@
       <workItem from="1642356160440" duration="164000" />
       <workItem from="1642356624212" duration="111000" />
       <workItem from="1642360707330" duration="9000" />
+      <workItem from="1642366003671" duration="486000" />
     </task>
     <servers />
   </component>

@@ -77,7 +77,7 @@ void escreve_sol(int *sol, int vert){
     int i;
     printf("\nConjunto: ");
     for (i = 0; i < vert; i++)
-        printf("%2d  ", sol[i]);
+        printf("%2d", sol[i]);
 }
 
 
